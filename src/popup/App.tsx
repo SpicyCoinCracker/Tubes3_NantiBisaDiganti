@@ -292,7 +292,7 @@ export default function PopupApp() {
   return (
     <div style={styles.container}>
       <div style={styles.header}>
-        <span style={styles.title}>Judol Detector</span>
+        <span style={styles.title}>NantiBisaDiganti</span>
       </div>
 
       {error && (

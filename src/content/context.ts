@@ -132,7 +132,7 @@ export async function scanPage(): Promise<PipelineStats | null> {
 
         return stats;
     } catch (e) {
-        console.error('Judol Detector scan error:', e);
+        console.error('NantiBisaDiganti scan error:', e);
         return null;
     } finally {
         isScanning = false;
